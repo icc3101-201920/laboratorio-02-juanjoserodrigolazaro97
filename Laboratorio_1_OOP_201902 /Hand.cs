@@ -5,10 +5,9 @@ using System.Text;
 
 namespace Laboratorio_1_OOP_201902
 {
-    public class Hand
+    public class Hand : Deck
     {
-        private List<CombatCard> combatCards;
-        private List<SpecialCard> SpecialCards;
+      
 
         public Hand()
         {

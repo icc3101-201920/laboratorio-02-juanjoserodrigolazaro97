@@ -29,6 +29,10 @@ namespace Laboratorio_1_OOP_201902
             {
                 return this.meleeCards;
             }
+            set
+            {
+                this.meleeCards = value;
+            }
         }
         public List<CombatCard>[] RangeCards
         {
@@ -36,12 +40,20 @@ namespace Laboratorio_1_OOP_201902
             {
                 return this.rangeCards;
             }
+            set
+            {
+                this.rangeCards = value;
+            }
         }
         public List<CombatCard>[] LongRangeCards
         {
             get
             {
                 return this.longRangeCards;
+            }
+            set
+            {
+                this.longRangeCards = value;
             }
         }
         public SpecialCard[] SpecialMeleeCards
@@ -122,9 +134,52 @@ namespace Laboratorio_1_OOP_201902
         {
             throw new NotImplementedException();
         }
-        public void AddWeatherCard(int PlayerId, SpecialCard specialCard)
+        public void AddCombatCard(int PlayerId, CombatCard combatCard)
+        {
+            if (combatCard.type == "melee")
+            {
+                MeleeCards[PlayerId].Add(combatCard);
+            }
+
+            else if (combatCard.type == "range")
+            {
+                RangeCards[PlayerId].Add(combatCard);
+            }
+
+            else if (combatCard.type == "longrange")
+            {
+                longRangeCards[PlayerId].Add(combatCard);
+            }
+
+        }
+        public void AddSpecialCard(SpecialCard specialCard, int playerId, string buffType)
+        {
+
+            
+
+        }
+
+
+        public void AddWeatherCard(int PlayerId, CombatCard combatCard)
         {
             throw new NotImplementedException();
+        }
+
+        public void DestroyCombatCard(int playerId) {
+
+
+
+
+
+        }
+
+        public void DestroySpecialCards()
+        {
+
+
+
+
+
         }
         public void DestroyMeleeCard(int PlayerId)
         {
@@ -156,6 +211,7 @@ namespace Laboratorio_1_OOP_201902
         }
         public int[] GetMeleeAttackPoints()
         {
+
             throw new NotImplementedException();
         }
         public int[] GetRangeAttackPoints()

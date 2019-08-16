@@ -4,11 +4,9 @@ using System.Text;
 
 namespace Laboratorio_1_OOP_201902.Card
 {
-    public class CombatCard
+    public class CombatCard : Cards
     {
         //Atributos
-        private string name;
-        private string type;
         private string effect;
         private int attackPoints;
         private bool hero;

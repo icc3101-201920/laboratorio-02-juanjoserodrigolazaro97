@@ -7,8 +7,8 @@ namespace Laboratorio_1_OOP_201902
 {
     public class Deck
     {
-        private List<CombatCard> combatCards;
-        private List<SpecialCard> SpecialCards;
+        public List<CombatCard> combatCards;
+        public List<SpecialCard> SpecialCards;
 
         public Deck()
         {

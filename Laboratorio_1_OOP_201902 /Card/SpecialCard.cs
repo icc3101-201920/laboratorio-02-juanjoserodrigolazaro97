@@ -4,11 +4,10 @@ using System.Text;
 
 namespace Laboratorio_1_OOP_201902.Card
 {
-    public class SpecialCard
+    public class SpecialCard: Cards
     {
         //Atributos
-        private string name;
-        private string type;
+    
         private string buffType;
         private string effect;
 

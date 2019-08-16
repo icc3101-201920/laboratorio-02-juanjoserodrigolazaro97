@@ -21,7 +21,7 @@ namespace Laboratorio_1_OOP_201902
         private Deck deck;
         private Hand hand;
         private Board board;
-        private SpecialCard captain;
+        public SpecialCard captain;
 
         //Constructor
         public Player()
@@ -120,8 +120,11 @@ namespace Laboratorio_1_OOP_201902
             throw new NotImplementedException();
         }
         public void ChooseCaptainCard(SpecialCard captainCard)
+
         {
-            throw new NotImplementedException();
+
+            Captain = captainCard;
+
         }
     }
 }
