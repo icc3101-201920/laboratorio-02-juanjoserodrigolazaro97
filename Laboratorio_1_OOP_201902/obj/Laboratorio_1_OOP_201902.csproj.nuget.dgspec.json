@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/imac/Downloads/Laboratorio_1_OOP_201902/Laboratorio_1_OOP_201902.csproj": {}
+    "/Users/imac/Desktop/uni/laboratorio-02-juanjoserodrigolazaro97/Laboratorio_1_OOP_201902/Laboratorio_1_OOP_201902.csproj": {}
   },
   "projects": {
-    "/Users/imac/Downloads/Laboratorio_1_OOP_201902/Laboratorio_1_OOP_201902.csproj": {
+    "/Users/imac/Desktop/uni/laboratorio-02-juanjoserodrigolazaro97/Laboratorio_1_OOP_201902/Laboratorio_1_OOP_201902.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/imac/Downloads/Laboratorio_1_OOP_201902/Laboratorio_1_OOP_201902.csproj",
+        "projectUniqueName": "/Users/imac/Desktop/uni/laboratorio-02-juanjoserodrigolazaro97/Laboratorio_1_OOP_201902/Laboratorio_1_OOP_201902.csproj",
         "projectName": "Laboratorio_1_OOP_201902",
-        "projectPath": "/Users/imac/Downloads/Laboratorio_1_OOP_201902/Laboratorio_1_OOP_201902.csproj",
+        "projectPath": "/Users/imac/Desktop/uni/laboratorio-02-juanjoserodrigolazaro97/Laboratorio_1_OOP_201902/Laboratorio_1_OOP_201902.csproj",
         "packagesPath": "/Users/imac/.nuget/packages/",
-        "outputPath": "/Users/imac/Downloads/Laboratorio_1_OOP_201902/obj/",
+        "outputPath": "/Users/imac/Desktop/uni/laboratorio-02-juanjoserodrigolazaro97/Laboratorio_1_OOP_201902/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Laboratorio_1_OOP_201902.Card
+namespace lab1
 {
     public class SpecialCard
     {

@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Laboratorio_1_OOP_201902.Card
+namespace lab1
 {
     public class CombatCard
     {
@@ -45,7 +42,7 @@ namespace Laboratorio_1_OOP_201902.Card
             {
                 this.type = value;
             }
-        }   
+        }
         public string Effect
         {
             get
@@ -69,7 +66,8 @@ namespace Laboratorio_1_OOP_201902.Card
             }
         }
         public bool Hero
-        { get
+        {
+            get
             {
                 return this.hero;
             }
